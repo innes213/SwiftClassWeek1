@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D75ADB1AE22C2900A1C1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D75ADA1AE22C2900A1C1B8 /* AppDelegate.swift */; };
+		B7D75AE01AE22C2900A1C1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D75ADE1AE22C2900A1C1B8 /* Main.storyboard */; };
+		B7D75AE21AE22C2900A1C1B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D75AE11AE22C2900A1C1B8 /* Images.xcassets */; };
+		B7D75AE51AE22C2900A1C1B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D75AE31AE22C2900A1C1B8 /* LaunchScreen.xib */; };
+		B7D75AF11AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D75AF01AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift */; };
+		B7D75AFB1AE22C8000A1C1B8 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7D75AEB1AE22C2900A1C1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D75ACD1AE22C2900A1C1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D75AD41AE22C2900A1C1B8;
+			remoteInfo = "Stinky Tomatoes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7D75AD51AE22C2900A1C1B8 /* Stinky Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stinky Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D75AD91AE22C2900A1C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D75ADA1AE22C2900A1C1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7D75ADF1AE22C2900A1C1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7D75AE11AE22C2900A1C1B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7D75AE41AE22C2900A1C1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7D75AEA1AE22C2900A1C1B8 /* Stinky TomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stinky TomatoesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D75AEF1AE22C2900A1C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D75AF01AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stinky_TomatoesTests.swift; sourceTree = "<group>"; };
+		B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D75AD21AE22C2900A1C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D75AE71AE22C2900A1C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D75ACC1AE22C2900A1C1B8 = {
+			isa = PBXGroup;
+			children = (
+				B7D75AD71AE22C2900A1C1B8 /* Stinky Tomatoes */,
+				B7D75AED1AE22C2900A1C1B8 /* Stinky TomatoesTests */,
+				B7D75AD61AE22C2900A1C1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D75AD61AE22C2900A1C1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D75AD51AE22C2900A1C1B8 /* Stinky Tomatoes.app */,
+				B7D75AEA1AE22C2900A1C1B8 /* Stinky TomatoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D75AD71AE22C2900A1C1B8 /* Stinky Tomatoes */ = {
+			isa = PBXGroup;
+			children = (
+				B7D75ADA1AE22C2900A1C1B8 /* AppDelegate.swift */,
+				B7D75ADE1AE22C2900A1C1B8 /* Main.storyboard */,
+				B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */,
+				B7D75AE11AE22C2900A1C1B8 /* Images.xcassets */,
+				B7D75AE31AE22C2900A1C1B8 /* LaunchScreen.xib */,
+				B7D75AD81AE22C2900A1C1B8 /* Supporting Files */,
+			);
+			path = "Stinky Tomatoes";
+			sourceTree = "<group>";
+		};
+		B7D75AD81AE22C2900A1C1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D75AD91AE22C2900A1C1B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7D75AED1AE22C2900A1C1B8 /* Stinky TomatoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D75AF01AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift */,
+				B7D75AEE1AE22C2900A1C1B8 /* Supporting Files */,
+			);
+			path = "Stinky TomatoesTests";
+			sourceTree = "<group>";
+		};
+		B7D75AEE1AE22C2900A1C1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D75AEF1AE22C2900A1C1B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D75AD41AE22C2900A1C1B8 /* Stinky Tomatoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D75AF41AE22C2900A1C1B8 /* Build configuration list for PBXNativeTarget "Stinky Tomatoes" */;
+			buildPhases = (
+				B7D75AD11AE22C2900A1C1B8 /* Sources */,
+				B7D75AD21AE22C2900A1C1B8 /* Frameworks */,
+				B7D75AD31AE22C2900A1C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stinky Tomatoes";
+			productName = "Stinky Tomatoes";
+			productReference = B7D75AD51AE22C2900A1C1B8 /* Stinky Tomatoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7D75AE91AE22C2900A1C1B8 /* Stinky TomatoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D75AF71AE22C2900A1C1B8 /* Build configuration list for PBXNativeTarget "Stinky TomatoesTests" */;
+			buildPhases = (
+				B7D75AE61AE22C2900A1C1B8 /* Sources */,
+				B7D75AE71AE22C2900A1C1B8 /* Frameworks */,
+				B7D75AE81AE22C2900A1C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D75AEC1AE22C2900A1C1B8 /* PBXTargetDependency */,
+			);
+			name = "Stinky TomatoesTests";
+			productName = "Stinky TomatoesTests";
+			productReference = B7D75AEA1AE22C2900A1C1B8 /* Stinky TomatoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D75ACD1AE22C2900A1C1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rob Hislop";
+				TargetAttributes = {
+					B7D75AD41AE22C2900A1C1B8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B7D75AE91AE22C2900A1C1B8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B7D75AD41AE22C2900A1C1B8;
+					};
+				};
+			};
+			buildConfigurationList = B7D75AD01AE22C2900A1C1B8 /* Build configuration list for PBXProject "Stinky Tomatoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D75ACC1AE22C2900A1C1B8;
+			productRefGroup = B7D75AD61AE22C2900A1C1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D75AD41AE22C2900A1C1B8 /* Stinky Tomatoes */,
+				B7D75AE91AE22C2900A1C1B8 /* Stinky TomatoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D75AD31AE22C2900A1C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D75AE01AE22C2900A1C1B8 /* Main.storyboard in Resources */,
+				B7D75AE51AE22C2900A1C1B8 /* LaunchScreen.xib in Resources */,
+				B7D75AE21AE22C2900A1C1B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D75AE81AE22C2900A1C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D75AD11AE22C2900A1C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D75ADB1AE22C2900A1C1B8 /* AppDelegate.swift in Sources */,
+				B7D75AFB1AE22C8000A1C1B8 /* MoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D75AE61AE22C2900A1C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D75AF11AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7D75AEC1AE22C2900A1C1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D75AD41AE22C2900A1C1B8 /* Stinky Tomatoes */;
+			targetProxy = B7D75AEB1AE22C2900A1C1B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7D75ADE1AE22C2900A1C1B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D75ADF1AE22C2900A1C1B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7D75AE31AE22C2900A1C1B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D75AE41AE22C2900A1C1B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7D75AF21AE22C2900A1C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D75AF31AE22C2900A1C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D75AF51AE22C2900A1C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stinky Tomatoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7D75AF61AE22C2900A1C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stinky Tomatoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7D75AF81AE22C2900A1C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stinky TomatoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stinky Tomatoes.app/Stinky Tomatoes";
+			};
+			name = Debug;
+		};
+		B7D75AF91AE22C2900A1C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stinky TomatoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stinky Tomatoes.app/Stinky Tomatoes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D75AD01AE22C2900A1C1B8 /* Build configuration list for PBXProject "Stinky Tomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D75AF21AE22C2900A1C1B8 /* Debug */,
+				B7D75AF31AE22C2900A1C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D75AF41AE22C2900A1C1B8 /* Build configuration list for PBXNativeTarget "Stinky Tomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D75AF51AE22C2900A1C1B8 /* Debug */,
+				B7D75AF61AE22C2900A1C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7D75AF71AE22C2900A1C1B8 /* Build configuration list for PBXNativeTarget "Stinky TomatoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D75AF81AE22C2900A1C1B8 /* Debug */,
+				B7D75AF91AE22C2900A1C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D75ACD1AE22C2900A1C1B8 /* Project object */;
+}

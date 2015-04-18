@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+\margl1440\margr1440\vieww18480\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ## Stinky Tomatoes\
+\
+This is a movies app displaying box office and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON).\
+\
+Time spent: `<Number of hours spent>`\
+\
+### Features\
+\
+#### Required\
+\
+- [ ] User can view a list of movies. Poster images load asynchronously.\
+- [ ] User can view movie details by tapping on a cell.\
+- [ ] User sees loading state while waiting for the API.\
+- [ ] User sees error message when there is a network error: http://cl.ly/image/1l1L3M460c3C\
+- [ ] User can pull to refresh the movie list.\
+\
+#### Optional\
+\
+- [ ] All images fade in.\
+- [ ] For the larger poster, load the low-res first and switch to high-res when complete.\
+- [ ] All images should be cached in memory and disk: AppDelegate has an instance of `NSURLCache` and `NSURLRequest` makes a request with `NSURLRequestReturnCacheDataElseLoad` cache policy. I tested it by turning off wifi and restarting the app.\
+- [ ] Customize the highlight and selection effect of the cell.\
+- [ ] Customize the navigation bar.\
+- [ ] Add a tab bar for Box Office and DVD.\
+- [ ] Add a search bar: pretty simple implementation of searching against the existing table view data.\
+\
+### Walkthrough\
+![Video Walkthrough](http://i.imgur.com/9d4fXIm.gif)\
+\
+Credits\
+---------\
+* [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON)\
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking)\
+}
