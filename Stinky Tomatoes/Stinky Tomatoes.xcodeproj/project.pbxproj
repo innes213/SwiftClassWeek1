@@ -56,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B74CC3431AE2E0E600322E2A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		B7D75ACC1AE22C2900A1C1B8 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +85,9 @@
 		B7D75AD71AE22C2900A1C1B8 /* Stinky Tomatoes */ = {
 			isa = PBXGroup;
 			children = (
+				B74CC3431AE2E0E600322E2A /* ViewControllers */,
 				B7D75ADA1AE22C2900A1C1B8 /* AppDelegate.swift */,
 				B7D75ADE1AE22C2900A1C1B8 /* Main.storyboard */,
-				B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */,
 				B7D75AE11AE22C2900A1C1B8 /* Images.xcassets */,
 				B7D75AE31AE22C2900A1C1B8 /* LaunchScreen.xib */,
 				B7D75AD81AE22C2900A1C1B8 /* Supporting Files */,
@@ -411,6 +419,7 @@
 				B7D75AF61AE22C2900A1C1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7D75AF71AE22C2900A1C1B8 /* Build configuration list for PBXNativeTarget "Stinky TomatoesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				B7D75AF91AE22C2900A1C1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
