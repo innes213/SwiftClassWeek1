@@ -10,9 +10,9 @@ import UIKit
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var movies = [NSDictionary]?
-    
-    @IBOutlet var tableView: UIView!
+    var movies: [NSDictionary]?
+
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,10 +24,12 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as? NSDictionary
             
             if let json = json {
-                self.movies = json["movies"] as! [NSDictionary]
+                self.movies = json["movies"] as? [NSDictionary]
+                self.tableView.reloadData()
             }
-            
         }
+        tableView.dataSource = self
+        tableView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,9 +39,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
-        // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
-        
         if let movies = movies {
             return movies.count
         } else {
@@ -48,7 +47,13 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCellWithIdentifier("MovieCell", forIndexPath: indexPath) as! UITableViewCell
         
+        let movie = movies![indexPath.row]
+        
+        cell.textLabel?.text = movie["title"] as? String
+        
+        return cell
     }
 
     /*
