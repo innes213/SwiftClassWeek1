@@ -14,6 +14,7 @@
 		B7D75AE51AE22C2900A1C1B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D75AE31AE22C2900A1C1B8 /* LaunchScreen.xib */; };
 		B7D75AF11AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D75AF01AE22C2900A1C1B8 /* Stinky_TomatoesTests.swift */; };
 		B7D75AFB1AE22C8000A1C1B8 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */; };
+		EFE9B567C15B0FB1FB628D33 /* libPods-Stinky Tomatoes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A10669F55CB0B62C7AE2D2E /* libPods-Stinky Tomatoes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B0F32C79DB6FD930099926 /* Pods-Stinky Tomatoes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stinky Tomatoes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stinky Tomatoes/Pods-Stinky Tomatoes.debug.xcconfig"; sourceTree = "<group>"; };
+		1A10669F55CB0B62C7AE2D2E /* libPods-Stinky Tomatoes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stinky Tomatoes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5258831237DA7DB48A8C1677 /* Pods-Stinky Tomatoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stinky Tomatoes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stinky Tomatoes/Pods-Stinky Tomatoes.release.xcconfig"; sourceTree = "<group>"; };
+		B70940A11AE48297006540BF /* Stinky Tomatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stinky Tomatoes-Bridging-Header.h"; sourceTree = "<group>"; };
 		B74CC3451AE46FB000322E2A /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		B7D75AD51AE22C2900A1C1B8 /* Stinky Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stinky Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D75AD91AE22C2900A1C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE9B567C15B0FB1FB628D33 /* libPods-Stinky Tomatoes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +64,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262FE7AD1F50BF35DB4D9267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A10669F55CB0B62C7AE2D2E /* libPods-Stinky Tomatoes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ADAB5917E1D57222BAF1B15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01B0F32C79DB6FD930099926 /* Pods-Stinky Tomatoes.debug.xcconfig */,
+				5258831237DA7DB48A8C1677 /* Pods-Stinky Tomatoes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B74CC3431AE2E0E600322E2A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				B7D75AFA1AE22C8000A1C1B8 /* MoviesViewController.swift */,
+				B70940A11AE48297006540BF /* Stinky Tomatoes-Bridging-Header.h */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -80,6 +104,8 @@
 				B7D75AD71AE22C2900A1C1B8 /* Stinky Tomatoes */,
 				B7D75AED1AE22C2900A1C1B8 /* Stinky TomatoesTests */,
 				B7D75AD61AE22C2900A1C1B8 /* Products */,
+				2ADAB5917E1D57222BAF1B15 /* Pods */,
+				262FE7AD1F50BF35DB4D9267 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7D75AF41AE22C2900A1C1B8 /* Build configuration list for PBXNativeTarget "Stinky Tomatoes" */;
 			buildPhases = (
+				592F3942C70FBAA468353071 /* Check Pods Manifest.lock */,
 				B7D75AD11AE22C2900A1C1B8 /* Sources */,
 				B7D75AD21AE22C2900A1C1B8 /* Frameworks */,
 				B7D75AD31AE22C2900A1C1B8 /* Resources */,
+				8E013D294AF982B3C80D7A8C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +253,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		592F3942C70FBAA468353071 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E013D294AF982B3C80D7A8C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stinky Tomatoes/Pods-Stinky Tomatoes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7D75AD11AE22C2900A1C1B8 /* Sources */ = {
@@ -360,21 +421,28 @@
 		};
 		B7D75AF51AE22C2900A1C1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B0F32C79DB6FD930099926 /* Pods-Stinky Tomatoes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Stinky Tomatoes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stinky Tomatoes/Stinky Tomatoes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B7D75AF61AE22C2900A1C1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5258831237DA7DB48A8C1677 /* Pods-Stinky Tomatoes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Stinky Tomatoes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stinky Tomatoes/Stinky Tomatoes-Bridging-Header.h";
 			};
 			name = Release;
 		};

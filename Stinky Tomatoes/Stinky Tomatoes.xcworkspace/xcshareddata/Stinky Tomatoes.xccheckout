@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EEC4C636-15BA-4F4F-8AC6-A049BC89CA41</string>
+	<string>F34D971E-2177-4AE9-9B1C-C8753B0FF040</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Stinky Tomatoes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>122795DE07D368DB4CFA58E1D115E8EBD6F2FAFC</key>
 		<string>https://github.com/innes213/SwiftClassWeek1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Stinky Tomatoes/Stinky Tomatoes.xcodeproj/project.xcworkspace</string>
+	<string>Stinky Tomatoes/Stinky Tomatoes.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>122795DE07D368DB4CFA58E1D115E8EBD6F2FAFC</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/innes213/SwiftClassWeek1.git</string>
