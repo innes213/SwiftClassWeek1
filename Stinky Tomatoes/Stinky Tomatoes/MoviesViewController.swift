@@ -16,6 +16,15 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var ErrorBannerView: UIView!
+    @IBOutlet weak var ErrorLabel: UILabel!
+    
+    override func viewWillAppear(animated: Bool) {
+    
+        ErrorLabel.text = "Error Occurred!"
+        ErrorBannerView.hidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,15 +33,17 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.insertSubview(refreshControl, atIndex: 0)
         
         self.loadSpinner()
-        let url = NSURL(string: "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=dagqdghwaq3e3mxyrp7kmmj5&limit=20&country=US")!
-        //let request = NSURLRequest(URL: url)
-        let request = NSURLRequest(URL: url, cachePolicy: NSURLRequestCachePolicy.ReturnCacheDataElseLoad, timeoutInterval: 5)
+        //let url = NSURL(string: "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=dagqdghwaq3e3mxyrp7kmmj5&limit=20&country=US")!
+        let url = NSURL(string: "https://gist.githubusercontent.com/timothy1ee/d1778ca5b944ed974db0/raw/489d812c7ceeec0ac15ab77bf7c47849f2d1eb2b/gistfile1.json")!
+        
+        let request = NSURLRequest(URL: url)
+        //let request = NSURLRequest(URL: url, cachePolicy: NSURLRequestCachePolicy.ReturnCacheDataElseLoad, timeoutInterval: 5)
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) { (
             response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
             
             if (error != nil) {
                 self.dismissSpinner()
-                //Show an error message
+                self.ErrorBannerView.hidden = false
             } else {
                 let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as? NSDictionary
             

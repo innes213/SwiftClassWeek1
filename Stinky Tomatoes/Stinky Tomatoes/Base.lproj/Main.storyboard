@@ -13,9 +13,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="107" sectionHeaderHeight="22" sectionFooterHeight="22" id="dp9-hQ-bD3">
-                                <rect key="frame" x="2" y="49" width="315" height="582"/>
+                                <rect key="frame" x="0.0" y="7" width="315" height="605"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="5rd-Uo-jN4">
+                                    <rect key="frame" x="0.0" y="64" width="315" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vVi-Qy-NG9">
+                                            <rect key="frame" x="83" y="8" width="161" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="107" id="daQ-xd-qVE" customClass="MovieCell" customModule="Stinky_Tomatoes" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="86" width="315" height="107"/>
@@ -58,6 +72,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="r0s-5l-S1s"/>
                     <connections>
+                        <outlet property="ErrorBannerView" destination="5rd-Uo-jN4" id="qKG-Ai-Vix"/>
+                        <outlet property="ErrorLabel" destination="vVi-Qy-NG9" id="rRV-GZ-adu"/>
                         <outlet property="tableView" destination="dp9-hQ-bD3" id="Yqm-Wc-qnN"/>
                     </connections>
                 </viewController>
