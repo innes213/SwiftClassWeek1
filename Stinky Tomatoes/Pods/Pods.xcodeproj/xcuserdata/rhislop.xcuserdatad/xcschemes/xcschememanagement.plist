@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Stinky Tomatoes-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Stinky Tomatoes.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7E33B0462C0965EA954B1EFA</key>
+		<key>04AE738A0B83EB9EB714E448</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BB881AC9ACAA14B1C210AD8C</key>
+		<key>04C0557CA4229041D428E3B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53B5FC4AFDAF4A2B5A272D5E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

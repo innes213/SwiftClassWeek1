@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Stinky Tomatoes/ErrorView.swift">
+   </FileRef>
+   <FileRef
       location = "group:Stinky Tomatoes.xcodeproj">
    </FileRef>
    <FileRef

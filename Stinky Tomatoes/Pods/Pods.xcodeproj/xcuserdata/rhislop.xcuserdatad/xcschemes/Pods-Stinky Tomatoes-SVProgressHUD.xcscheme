@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04AE738A0B83EB9EB714E448"
-               BuildableName = "libPods-Stinky Tomatoes.a"
-               BlueprintName = "Pods-Stinky Tomatoes"
+               BlueprintIdentifier = "53B5FC4AFDAF4A2B5A272D5E"
+               BuildableName = "libPods-Stinky Tomatoes-SVProgressHUD.a"
+               BlueprintName = "Pods-Stinky Tomatoes-SVProgressHUD"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B70940A51AE48832006540BF /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70940A41AE48832006540BF /* MovieDetailsViewController.swift */; };
+		B745B50F1AE611FD000379D4 /* ErrorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745B50E1AE611FD000379D4 /* ErrorDisplay.swift */; };
+		B745B5111AE6183E000379D4 /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = B745B5101AE6183E000379D4 /* TestData.json */; };
 		B74CC3461AE46FB000322E2A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74CC3451AE46FB000322E2A /* MovieCell.swift */; };
 		B7D75ADB1AE22C2900A1C1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D75ADA1AE22C2900A1C1B8 /* AppDelegate.swift */; };
 		B7D75AE01AE22C2900A1C1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D75ADE1AE22C2900A1C1B8 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		5258831237DA7DB48A8C1677 /* Pods-Stinky Tomatoes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stinky Tomatoes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stinky Tomatoes/Pods-Stinky Tomatoes.release.xcconfig"; sourceTree = "<group>"; };
 		B70940A11AE48297006540BF /* Stinky Tomatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stinky Tomatoes-Bridging-Header.h"; sourceTree = "<group>"; };
 		B70940A41AE48832006540BF /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		B745B50E1AE611FD000379D4 /* ErrorDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDisplay.swift; sourceTree = "<group>"; };
+		B745B5101AE6183E000379D4 /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestData.json; sourceTree = SOURCE_ROOT; };
 		B74CC3451AE46FB000322E2A /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		B7D75AD51AE22C2900A1C1B8 /* Stinky Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stinky Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D75AD91AE22C2900A1C1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B74CC3451AE46FB000322E2A /* MovieCell.swift */,
+				B745B50E1AE611FD000379D4 /* ErrorDisplay.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		B7D75AD71AE22C2900A1C1B8 /* Stinky Tomatoes */ = {
 			isa = PBXGroup;
 			children = (
+				B745B5101AE6183E000379D4 /* TestData.json */,
 				B74CC3441AE46F4500322E2A /* Views */,
 				B74CC3431AE2E0E600322E2A /* ViewControllers */,
 				B7D75ADA1AE22C2900A1C1B8 /* AppDelegate.swift */,
@@ -245,6 +251,7 @@
 				B7D75AE01AE22C2900A1C1B8 /* Main.storyboard in Resources */,
 				B7D75AE51AE22C2900A1C1B8 /* LaunchScreen.xib in Resources */,
 				B7D75AE21AE22C2900A1C1B8 /* Images.xcassets in Resources */,
+				B745B5111AE6183E000379D4 /* TestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B70940A51AE48832006540BF /* MovieDetailsViewController.swift in Sources */,
+				B745B50F1AE611FD000379D4 /* ErrorDisplay.swift in Sources */,
 				B7D75ADB1AE22C2900A1C1B8 /* AppDelegate.swift in Sources */,
 				B7D75AFB1AE22C8000A1C1B8 /* MoviesViewController.swift in Sources */,
 				B74CC3461AE46FB000322E2A /* MovieCell.swift in Sources */,

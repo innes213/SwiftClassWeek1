@@ -3,6 +3,7 @@
 
 target 'Stinky Tomatoes' do
 	pod "AFNetworking"
+	pod "SVProgressHUD"
 end
 
 target 'Stinky TomatoesTests' do
